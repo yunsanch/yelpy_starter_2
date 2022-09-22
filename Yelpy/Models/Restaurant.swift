@@ -22,7 +22,7 @@ class Restaurant {
         rating = dict["rating"] as! Double
         reviews = dict["review_count"] as! Int
         Phone = dict["display_phone"] as! String
-        url = URL(string: dict["url"] as! String)
+        url = URL(string: dict["url"] as! String) 
         mainCategory = Restaurant.getMainCategory(dict: dict)
              
         
