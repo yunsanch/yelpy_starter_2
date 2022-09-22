@@ -25,7 +25,7 @@ class RestaurantDetailsViewController: UIViewController {
         super.viewDidLoad()
         
         restaurantImage.af.setImage(withURL: r.imageURL!)
-        restaurantImage.alpha = 0.5
+        restaurantImage.alpha = 0.55
         nameLabel.text = r.name
         
         startImage.image = Stars.dict[r.rating]!
