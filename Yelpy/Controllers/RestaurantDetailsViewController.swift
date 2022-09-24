@@ -30,7 +30,11 @@ class RestaurantDetailsViewController: UIViewController {
         
         startImage.image = Stars.dict[r.rating]!
         reviewsLabel.text = String(r.reviews)
+        reviewsLabel.sizeToFit()
+        
         phoneLabel.text = r.Phone
+        phoneLabel.sizeToFit()
+        
 
         // Do any additional setup after loading the view.
     }

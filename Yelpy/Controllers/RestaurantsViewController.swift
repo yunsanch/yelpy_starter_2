@@ -88,6 +88,8 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
             let r = restaurantsArray[indexPath.row]
             let detailsViewController = segue.destination as! RestaurantDetailsViewController
             detailsViewController.r = r
+            
+            tableView.deselectRow(at: indexPath, animated: true)
         }
     }
 

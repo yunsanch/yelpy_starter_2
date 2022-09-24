@@ -23,7 +23,7 @@ class RestaurantCell: UITableViewCell {
             nameLabel.text = r.name
             categoryLabel.text = r.mainCategory
             phoneLabel.text = r.Phone
-            reviewsLabel.text = String(r.reviews) + "reviews"
+            reviewsLabel.text = String(r.reviews) + " reviews"
             
             //Set images
             starsImage.image = Stars.dict[r.rating]!
